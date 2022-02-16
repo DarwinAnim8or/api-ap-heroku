@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://affectionate-panini-2921dd.netlify.app/'
+        origin: 'https://affectionate-panini-2921dd.netlify.app'
     })
 );
 app.options('*', cors());
